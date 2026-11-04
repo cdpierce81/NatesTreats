@@ -27,12 +27,12 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container hero-content">
-            <span class="badge">Freshly Baked Daily</span>
-            <h2>Artisanal Treats Made to Satisfy Your Sweet Tooth</h2>
-            <p>Skip the DMs! Browse our rotating menu of custom cookies, brownies, and pastries, and place your order directly in seconds.</p>
+            <span class="badge">The Treats That Keep You Coming Back</span>
+            <h2>Artisanal Bundt Cakes & Freshly Baked Goods</h2>
+            <p>Skip the DMs! Browse our weekly rotating menu of specialty bundt cakes, pastries, and treats, and place your pre-order directly.</p>
             <div class="hero-buttons">
-                <a href="#menu" class="btn-primary">Explore Menu</a>
-                <a href="#order" class="btn-secondary">Request Custom Order</a>
+                <a href="#menu" class="btn-primary">Explore Weekly Menu</a>
+                <a href="#order" class="btn-secondary">Lock In Order</a>
             </div>
         </div>
     </section>
@@ -41,44 +41,44 @@
     <section id="menu" class="menu-section">
         <div class="container">
             <div class="section-title">
-                <h2>Our Signature Menu</h2>
-                <p>Freshly baked and made to order. Quantities are limited!</p>
+                <h2>This Week's Menu</h2>
+                <p>Whole bundt cakes, fresh slices, and special baked goods. Quantities are limited!</p>
             </div>
             
             <div class="menu-grid">
                 <!-- Item 1 -->
                 <div class="menu-card">
-                    <div class="card-img-placeholder">🍪</div>
+                    <div class="card-img-placeholder">🥮</div>
                     <div class="card-body">
                         <div class="card-header-info">
-                            <h3>Choco-Chunk Cookies</h3>
-                            <span class="price">$15 / half-dozen</span>
+                            <h3>Signature Whole Bundt Cake</h3>
+                            <span class="price">$45</span>
                         </div>
-                        <p>Crispy on the outside, ultra-fudgy center loaded with premium dark chocolate chunks.</p>
+                        <p>Rotating weekly specialty flavors like Peach Cobbler, Banana Pudding, Sweet Potato, and more!</p>
                     </div>
                 </div>
 
                 <!-- Item 2 -->
                 <div class="menu-card">
-                    <div class="card-img-placeholder">🍫</div>
+                    <div class="card-img-placeholder">🍰</div>
                     <div class="card-body">
                         <div class="card-header-info">
-                            <h3>Signature Brownies</h3>
-                            <span class="price">$20 / pan</span>
+                            <h3>Cake Slice</h3>
+                            <span class="price">$5</span>
                         </div>
-                        <p>Rich, decadent fudge brownies baked with a glossy crackly top and gooey center.</p>
+                        <p>A generous, moist slice of our featured weekly bundt cake flavor with house-made icing.</p>
                     </div>
                 </div>
 
                 <!-- Item 3 -->
                 <div class="menu-card">
-                    <div class="card-img-placeholder">🧁</div>
+                    <div class="card-img-placeholder">🥟</div>
                     <div class="card-body">
                         <div class="card-header-info">
-                            <h3>Caramel Cupcakes</h3>
-                            <span class="price">$18 / half-dozen</span>
+                            <h3>Homemade Cinnamon Rolls</h3>
+                            <span class="price">$7 single / $20 4-pack</span>
                         </div>
-                        <p>Fluffy vanilla bean cupcakes topped with house-made salted caramel buttercream.</p>
+                        <p>Soft, fluffy homemade rolls loaded with cinnamon-sugar and topped with sweet icing.</p>
                     </div>
                 </div>
             </div>
@@ -96,18 +96,18 @@
             <div class="steps-grid">
                 <div class="step-card">
                     <div class="step-num">1</div>
-                    <h3>Choose Your Sweets</h3>
-                    <p>Browse our menu items and select your favorites for the week.</p>
+                    <h3>Check the Flavors</h3>
+                    <p>Browse our weekly menu featuring 3 rotating delicious cake flavors.</p>
                 </div>
                 <div class="step-card">
                     <div class="step-num">2</div>
-                    <h3>Submit Order Form</h3>
-                    <p>Fill out our quick order inquiry with your preferred pickup or delivery date.</p>
+                    <h3>Submit Your Order</h3>
+                    <p>Fill out our quick order form with your selections and preferred pickup time.</p>
                 </div>
                 <div class="step-card">
                     <div class="step-num">3</div>
-                    <h3>Enjoy!</h3>
-                    <p>We'll confirm your details via text/email and prep your fresh batch.</p>
+                    <h3>Lock In & Enjoy</h3>
+                    <p>Secure your order with a deposit and get ready for the best treats in town!</p>
                 </div>
             </div>
         </div>
@@ -117,11 +117,11 @@
     <section id="order" class="order-section">
         <div class="container form-wrapper">
             <div class="section-title">
-                <h2>Place an Order Inquiry</h2>
-                <p>Fill out the details below and Nate will get back to you to confirm!</p>
+                <h2>Lock In Your Pre-Order</h2>
+                <p>Fill out the details below and Nate will get back to you to confirm your reservation!</p>
             </div>
 
-            <form class="order-form" onsubmit="event.preventDefault(); alert('Order inquiry submitted successfully! (Mock-up)');">
+            <form class="order-form" onsubmit="event.preventDefault(); alert('Pre-order inquiry submitted successfully! (Mock-up)');">
                 <div class="form-group">
                     <label for="name">Your Name</label>
                     <input type="text" id="name" placeholder="Jane Doe" required>
@@ -139,21 +139,21 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="selection">Select Items / Custom Request</label>
+                    <label for="selection">Select Item / Flavor Preference</label>
                     <select id="selection">
-                        <option value="cookies">Choco-Chunk Cookies ($15)</option>
-                        <option value="brownies">Signature Brownies ($20)</option>
-                        <option value="cupcakes">Caramel Cupcakes ($18)</option>
-                        <option value="custom">Custom Order / Mixed Box</option>
+                        <option value="whole">Whole Bundt Cake ($45)</option>
+                        <option value="slice">Cake Slice ($5)</option>
+                        <option value="rolls">Cinnamon Rolls (4-Pack - $20)</option>
+                        <option value="custom">Custom Weekly Mix</option>
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <label for="notes">Special Instructions or Allergies</label>
-                    <textarea id="notes" rows="4" placeholder="Let us know if you need specific pickup times or have allergy notes..."></textarea>
+                    <label for="notes">Flavor Choice & Pickup Details</label>
+                    <textarea id="notes" rows="4" placeholder="Mention which weekly flavor you'd like and your preferred pickup day/time..."></textarea>
                 </div>
 
-                <button type="submit" class="btn-primary btn-block">Send Order Inquiry</button>
+                <button type="submit" class="btn-primary btn-block">Submit Pre-Order Inquiry</button>
             </form>
         </div>
     </section>
@@ -162,7 +162,7 @@
     <footer class="site-footer">
         <div class="container footer-content">
             <p>&copy; 2026 Nate's Treats. Built with code by Dani.</p>
-            <p>Follow on Instagram: <a href="https://instagram.com" target="_blank">@natetreats</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/natestreats/" target="_blank">@natestreats</a></p>
         </div>
     </footer>
 
