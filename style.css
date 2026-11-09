@@ -20,9 +20,9 @@
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     /* Puts the image as the grand background for the entire page */
-    background-image: linear-gradient(rgba(253, 251, 247, 0.92), rgba(253, 251, 247, 0.92)), url('images/bakery-no-background.jpg');
+    background-image: linear-gradient(rgba(253, 251, 247, 0.85), rgba(253, 251, 247, 0.85)), url('images/bakery-no-background.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center 20%;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Keeps it locked as you scroll */
     color: var(--text-dark);
