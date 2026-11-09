@@ -24,6 +24,20 @@ body {
     line-height: 1.6;
 }
 
+.bakery-hero-wall {
+    /* Use either bakery background image[span_2](start_span)[span_2](end_span) or white background version[span_3](start_span)[span_3](end_span) */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/bakery-no-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the image locked in place while scrolling */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
