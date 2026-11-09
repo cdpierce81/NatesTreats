@@ -19,23 +19,21 @@
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: var(--bg-light);
+    /* Puts the image as the grand background for the entire page */
+    background-image: linear-gradient(rgba(253, 251, 247, 0.92), rgba(253, 251, 247, 0.92)), url('images/bakery-no-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps it locked as you scroll */
     color: var(--text-dark);
     line-height: 1.6;
 }
 
 .bakery-hero-wall {
-    /* Use either bakery background image[span_2](start_span)[span_2](end_span) or white background version[span_3](start_span)[span_3](end_span) */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/bakery-no-background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* Keeps the image locked in place while scrolling */
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* Removes the background image from here since it's now on the whole body */
+    padding: 5rem 0;
     text-align: center;
-    color: white;
+    color: var(--primary); /* Since the background is now the whole page cream color, makes text dark */
 }
 
 h1, h2, h3 {
